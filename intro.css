@@ -2029,28 +2029,18 @@ body{
 }
 
 @media screen and (max-width: 390px) {
-    /* Điều chỉnh phần tử lion_dance cho màn hình nhỏ hơn */
-    .box-lion_dance .lion_dance1 {
-        top: 550px;
-        right: 0;
-    }
-    .box-lion_dance .lion_dance2 {
-        top: 565px;
-        left: 0;
-    }
-    /* Điều chỉnh phần tử button */
-    .box-button {
-        top: 90%;
-    }
-    .number2023 {
-        font-size: 50px;
-        top: 58%;
-    }
-    .number2023 .number:nth-child(1),
-    .number2023 .number:nth-child(2),
-    .number2023 .number:nth-child(3),
-    .number2023 .number:nth-child(4) {
-        top: -600px;
-    }
+   /* Điều chỉnh kích thước chữ trong phần .right */
+   .box-content .right .content p {
+       font-size: 14px;  /* Điều chỉnh lại kích thước chữ */
+   }
+   .box-content .right .content h1 {
+       font-size: 18px;  /* Điều chỉnh lại kích thước chữ */
+   }
+   
+   /* Kiểm tra xem phần tử không bị ẩn */
+   .box-content .right {
+       visibility: visible;
+       display: block;  /* Đảm bảo phần tử không bị ẩn */
+   }
 }
 
