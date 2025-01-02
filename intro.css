@@ -352,7 +352,7 @@ body{
     align-items: center;
     justify-content: center;
     transform: translate(-50%,-50%);
-    font-family: 'East Sea Dokdo', cursive;
+    font-family: 'Water Brush', cursive;
     color: rgb(255, 255, 0);
     font-size: 75px;
 }
@@ -1040,6 +1040,24 @@ body{
     }
     50%,100%{
         margin-left: 440px;
+    }
+}
+.slider-img6 img:nth-child(4){
+    width: 160px;
+    filter: drop-shadow(5px 7px 8px rgb(0, 0, 0, 0.4));
+    margin-top: 150px;
+    margin-left: 1500px;
+    position: absolute;
+    z-index: 11;
+    transform: scaleX(-1) rotate(-5deg);
+    animation: cloudRed4 2s 3s forwards;
+}
+@keyframes cloudRed4{
+    0%{
+        margin-left: 1500px;
+    }
+    50%,100%{
+        margin-left: 1050px;
     }
 }
 .box-lion_dance{
