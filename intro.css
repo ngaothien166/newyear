@@ -529,10 +529,10 @@ body{
 }
 .box-button .button button{
     padding: 10px 15px;
-    background-color: rgb(199,37,68);
+    background-color: red;
     font-family: 'Roboto', sans-serif;
     border: none;
-    color: #ffe100;
+    color: aliceblue;
     font-size: 15px;
     font-weight: bold;
     border-radius: 4px 0px 0px 4px;
@@ -540,14 +540,14 @@ body{
     transition: 0.5s;
 }
 .box-button .button button:hover{
-    background-color: rgb(180, 32, 59);
-    color: aliceblue;
+    background-color: red;
+    color: yellow;
 }
 .box-button .button span{
     position: relative;
     width: 42px;
     height: 42px;
-    background-color: rgb(199,37,68);
+    background-color: red;
     margin-left: -2px;
     border-radius: 0px 6px 6px 0px;
     cursor: pointer;
@@ -558,7 +558,7 @@ body{
 }
 .box-button .button button:hover ~ span{
     transform: translateY(-4px);
-    background-color: rgb(186, 35, 62);
+    background-color: red;
     box-shadow: -2px 2px 5px rgb(0, 0, 0, 0.5);
 }
 .box-button .button span i{
@@ -566,7 +566,7 @@ body{
     transition: 0.5s;
 }
 .box-button .button button:hover ~ span i{
-    color: rgb(255, 41, 80);
+    color: yellow;
     transform: rotate(360deg);
     filter: drop-shadow(0px 0px 10px rgb(255, 187, 199));
 }
@@ -1105,7 +1105,7 @@ body{
 }
 .box-lion_dance .lion_dance2{
     position: absolute;
-    width: 250px;
+    width: 280px;
     top: 310px;
     left: 200px;
     z-index: 100;
@@ -1384,7 +1384,7 @@ body{
     position: absolute;
     width: 396px;
     height: 370px;
-    background: #fff;
+    background: Maroon;
     transform: rotate(-35deg) skewX(20deg) scale(0);
     border: 4px solid rgb(255, 255, 0);
     box-shadow: 0 0 10px rgb(0, 0, 0),
@@ -1395,7 +1395,7 @@ body{
     position: absolute;
     width: 310px;
     height: 284px;
-    background: #fff;
+    background: Maroon;
     transform: rotate(-35deg) skewX(20deg) scale(0);
     border: 4px solid rgb(255, 255, 0);
     box-shadow: 0 0 10px rgb(0, 0, 0, 0.5),
@@ -1404,7 +1404,7 @@ body{
 .rhombus-img{
     width: 250px;
     height: 250px;
-    background-color: #fff;
+    background-color: Maroon;
     border: 4px solid rgb(255, 255, 0);
     z-index: 100;
     box-shadow: 0 0 10px rgb(0, 0, 0, 0.5),
@@ -1433,7 +1433,7 @@ body{
 }
 .mail button{
     padding: 10px 15px;
-    background-color: rgb(199,37,68);
+    background-color: red;
     border: none;
     font-size: 25px;
     border-radius: 4px 0px 0px 4px;
@@ -1453,7 +1453,7 @@ body{
     position: relative;
     width: 44px;
     height: 44px;
-    background-color: rgb(199,37,68);
+    background-color: red;
     margin-left: -2px;
     border-radius: 0px 6px 6px 0px;
     cursor: pointer;
@@ -1468,7 +1468,7 @@ body{
 }
 .mail:hover button i{
     cursor: pointer;
-    color: rgb(255, 41, 80);
+    color: yellow;
     filter: drop-shadow(0px 0px 10px rgb(255, 187, 199));
     animation: rotateMail 0.5s linear infinite;
 }
@@ -1491,12 +1491,12 @@ body{
 }
 .mail:hover > .heart{
     transform: translateY(-4px);
-    background-color: rgb(186, 35, 62);
+    background-color: red;
     box-shadow: -2px 2px 5px rgb(0, 0, 0, 0.5);
 }
 
 .mail:hover > .heart i{
-    color: rgb(255, 41, 80);
+    color: yellow;
     transform: rotate(360deg);
     filter: drop-shadow(0px 0px 10px rgb(255, 187, 199));
 }
