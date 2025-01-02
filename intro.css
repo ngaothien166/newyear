@@ -637,7 +637,7 @@ body{
     position: absolute;
     width: 100px;
     top: 100px;
-    left: 460px;
+    left: 530px;
     z-index: 1000;
     animation: rotateFlower 3s linear infinite;
 }
@@ -670,7 +670,7 @@ body{
     position: absolute;
     width: 180px;
     top: 140px;
-    left: 350px;
+    left: 400px;
     z-index: 10;
     /* filter: drop-shadow(-5px 6px 5px rgb(0, 0, 0, 0.5)); */
     animation: rotateFlower2 3s linear infinite;
@@ -688,7 +688,7 @@ body{
     position: absolute;
     width: 125px;
     top: 110px;
-    left: 400px;
+    left: 480px;
     z-index: 10;
     /* filter: drop-shadow(-5px 6px 5px rgb(0, 0, 0, 0.5)); */
     animation: rotateFlower2 5s linear infinite;
